@@ -43,6 +43,6 @@ export default class Validator {
       return acc + num;
     }, 0);
 
-    return +value[value.length - 1] === checkDigit % 10;
+    return +value[value.length - 1] === 10 - (checkDigit % 10);
   }
 }
