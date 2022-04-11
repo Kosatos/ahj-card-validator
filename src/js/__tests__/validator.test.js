@@ -29,10 +29,10 @@ describe('Class Validator: ', () => {
   });
 
   test(`'checkCheckDigit' should return true or false check digit`, () => {
-    expect(validator.constructor.checkCheckDigit('4305642323961699')).toEqual(
+    expect(validator.constructor.checkCheckDigit('5588362780018027')).toEqual(
       true
     );
-    expect(validator.constructor.checkCheckDigit('4305642323961692')).toEqual(
+    expect(validator.constructor.checkCheckDigit('5588362780018025')).toEqual(
       false
     );
   });
